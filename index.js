@@ -87,7 +87,7 @@ const calculate =()=>{
     else if(operator === "-"){
         previousValue -= currentValue;
     }
-    else if(operator === "x"){
+    else if(operator === "*"){
         previousValue *= currentValue;
     }
     else {
